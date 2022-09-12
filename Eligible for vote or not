@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	float n;
+	cin>>n;
+	if(float(n))
+	{
+		if(n>18)
+		cout<<"eligible";
+		else if(n<0)
+		cout<<"no negative age and enter positive";
+		else
+		cout<<"not eligible and required age is"<<18-n;
+	}
+	else 
+	cout<<"enter only float value";
+}
